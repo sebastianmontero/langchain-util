@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "langchain-util"
+version = "0.1.2"
+description = "Custom langchain components"
+authors = ["Sebastian Montero <sebastian.montero@gmail.com>"]
+readme = "README.md"
+packages = [{include = "langchain_util"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8.1,<4.0"
+langchain = {path = "../langchain"}
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.1"
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
