@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "langchain-util"
-version = "0.1.2"
+version = "0.1.6"
 description = "Custom langchain components"
 authors = ["Sebastian Montero <sebastian.montero@gmail.com>"]
 readme = "README.md"
